@@ -7,6 +7,7 @@ import { GestionUsersComponent } from './pages/gestion-users/gestion-users.compo
 import { ContactosComponent } from './pages/contactos/contactos.component';
 import { bibliotecarioGuard } from './guards/bibliotecario.guard';
 import { adminGuard } from './guards/admin.guard';
+import { invitadoGuard } from './guards/invitado.guard';
 
 export const routes: Routes = [
 
@@ -15,7 +16,7 @@ export const routes: Routes = [
     { path: 'catalogo', component: CatalogoComponent, canActivate: [bibliotecarioGuard]},
     { path: 'gestionLibros', component: GestionLibrosComponent, canActivate: [adminGuard]},
     { path: 'gestionUsers', component: GestionUsersComponent, canActivate: [adminGuard]},
-    { path: 'contactos', component: ContactosComponent, canActivate: [bibliotecarioGuard]},
+    { path: 'contactos', component: ContactosComponent, canActivate : [bibliotecarioGuard, invitadoGuard]},
 
     { path: '', component: HomeComponent},
    

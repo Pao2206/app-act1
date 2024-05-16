@@ -27,9 +27,7 @@ export class HomeComponent {
       
       if (this.token != '') {
         localStorage.setItem("token", 'true')
-        //this.ruta.navigateByUrl('privado')
-        window.location.href = 'privado'
-      }
+        }
     }
     )
   }
