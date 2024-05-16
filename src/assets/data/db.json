@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "email": "biblio1@yop.com",
+      "password": "$2a$10$HYz5rfACW1tIBfn8dEak2emmt5tLlp3voKOAcsgKhUIPdY3Q/uZTq",
+      "type": "bibliotecario",
+      "id": 1
+    },
+    {
+      "email": "admin1@yop.com",
+      "password": "$2a$10$5HjCKp.ya9LsHckQcQWy9ei7IxGBEg76r0eI5eEaWL5iSV01/xdoO",
+      "type": "admin",
+      "id": 2
+    },
+    {
+      "email": "user1@yop.com",
+      "password": "$2a$10$VHnoAftNG3SSe0CxUzT0f.iHvbmP5Ufqvj/oGOwsCaay7pJZKZ16O",
+      "type": "user",
+      "id": 3
+    }
+  ],
+  "libros": [
+    {
+      "id": 1,
+      "title": "Harry Potter y la piedra filosofal",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter y la camara secreta",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter y el prisionero de Azkaban",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter y el caliz de fuego",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter y la orden del fenix",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter y el misterio del príncipe",
+      "author": "J.K. Rowling"
+    }
+  ]
+}
